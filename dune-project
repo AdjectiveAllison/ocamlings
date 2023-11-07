@@ -7,11 +7,11 @@
 (source
  (github AdjectiveAllison/ocamlings))
 
-(authors "AdjectiveAllison")
+(authors "Allison Durham")
 
-(maintainers "AdjectiveAllison")
+(maintainers "Allison Durham")
 
-(license LICENSE)
+(license MIT)
 
 (documentation https://github.com/AdjectiveAllison/ocamlings)
 
@@ -19,7 +19,10 @@
  (name ocamlings)
  (synopsis "Like the lings of other languages.")
  (description "Rustlings and Ziglings but in Ocaml!")
- (depends ocaml dune)
+ (depends
+  ocaml
+  dune
+  (alcotest :with-test))
  (tags
   (topics "to describe" your project)))
 

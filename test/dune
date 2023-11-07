@@ -1,2 +1,3 @@
-(test
- (name ocamlings))
+(tests
+ (names test_example)
+ (libraries alcotest ocamlings))

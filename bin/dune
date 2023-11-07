@@ -1,4 +1,3 @@
 (executable
- (public_name ocamlings)
  (name main)
  (libraries ocamlings))
