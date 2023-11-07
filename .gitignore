@@ -1,0 +1,59 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+
+# ocamlbuild working directory
+_build/
+
+# ocamlbuild targets
+*.byte
+*.native
+
+# oasis generated files
+setup.data
+setup.log
+
+# Merlin configuration file for Vim and Emacs
+.merlin
+
+# Dune generated files
+*.install
+
+# Local OPAM switch
+_opam/
+
+# Dune-specific ignores
+_boot
+_perf
+_coverage
+__pycache__
+
+# Editor swap files, lock files, and settings
+*.swp
+*.swo
+.#*
+.vscode
+
+# git-ps hooks
+.git-ps
+
+# Additional Dune and development-specific files
+.duneboot.*
+Makefile.dev
+src/dune_rules/setup.ml
+result
+
+# System-specific ignores
+.DS_Store
+nix/profiles/
+
+# dkml desktop CI
+/msys64
+/.ci
